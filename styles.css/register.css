@@ -1,0 +1,171 @@
+/* body{
+    background-color: rgb(195, 228, 231);
+    color: rgb(8, 0, 0);
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.links{
+    margin: 5% 5% 10% 5%;
+    color: black;
+}
+
+.contact{
+    float: right;
+}
+.back{
+    float: left;
+}
+
+.contact,.back{
+    background-color: rgb(22, 106, 137);
+    color: white;
+    border: 2px solid white;
+    padding: 1%;
+    border-radius: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.contact:hover, .back:hover{
+    background-color: white;
+    color: black;
+}
+
+fieldset{
+    margin: auto auto;
+    border: none;
+}
+form{
+    width: 55%;
+    display: block;
+    margin: auto auto;   
+    
+}
+label{
+    display: block;
+    margin: 0.6vw auto;
+}
+input[type="text"],input[type="email"]{
+    width:100%;
+    height: 2.5vw;
+}
+input[type="password"]{
+    height: 2vw;
+}
+#age{
+    width: 10%;
+    height: 2vw;
+}
+input[type="submit"]{
+    margin: auto 22vw;
+}
+#phone-number{
+    height: 2vw;
+} */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(213, 239, 241);
+    color: rgb(8, 0, 0);
+    text-transform: capitalize;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .links {
+    margin: 5% 5% 10% 5%;
+  }
+  .contact{
+    float: right;
+  }
+  .back{
+    float: left;
+  }
+
+  
+  .contact, .back {
+    display: inline-block;
+    background-color: rgb(22, 106, 137);
+    color: white;
+    border: 2px solid white;
+    padding: 1%;
+    border-radius: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .contact:hover, .back:hover {
+    background-color: white;
+    color: rgb(22, 106, 137);
+  }
+  
+  form {
+    width: 55%;
+    display: block;
+    margin: auto;
+    /* border: 2px solid rgb(22, 106, 137); */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: auto;
+    margin: auto auto;
+  }
+  
+  label {
+    display: block;
+    /* margin-bottom: 1rem; */
+    font-size: 1.2rem;
+    margin: 0.6vw auto;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    height: 2.5rem;
+    border: 2px solid rgb(22, 106, 137);
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  input[type="submit"] {
+    margin-top: 2rem;
+    background-color: rgb(22, 106, 137);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(34, 128, 166);
+  }
+  
